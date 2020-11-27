@@ -47,7 +47,6 @@ function setup(){
 function draw(){
   background("black");
   Engine.update(engine);
-  text(mouseX + ", " + mouseY, 100,100);
 
   ground1.display();
   ground2.display();
